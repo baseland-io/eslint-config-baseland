@@ -1,6 +1,6 @@
 module.exports = {
   "root": true,
-  "extends": ['standard-with-typescript'],
+  "extends": ['eslint-config-node'],
   "parserOptions": {
     "project": './tsconfig.json'
   },
