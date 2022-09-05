@@ -34,7 +34,7 @@ In the `.eslintrc.json` file, add the following:
 
 ```javascript
 {
-  "extends": "baseland-io@eslint-config-baseland"
+  "extends": "@baseland-io/eslint-config-baseland"
 }
 ```
 
