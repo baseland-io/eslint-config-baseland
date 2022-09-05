@@ -1,0 +1,32 @@
+{
+  "name": "@baseland-io/eslint-config-baseland",
+  "version": "0.1.0",
+  "description": "Baseland.io ESLint Rules and Standards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseland-io/eslint-config-baseland.git"
+  },
+  "keywords": [
+    "eslint",
+    "baseland",
+    "baseland-io",
+    "eslint-config",
+    "eslint-config-baseland"
+  ],
+  "author": "Developers <developers@baseland.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baseland-io/eslint-config-baseland/issues"
+  },
+  "homepage": "https://github.com/baseland-io/eslint-config-baseland#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
+  }
+}
