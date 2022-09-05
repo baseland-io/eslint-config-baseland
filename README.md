@@ -1,8 +1,6 @@
 # eslint-config-baseland
-Baseland.io Group ESLint Rules and Standards.
-# eslint-config-baseland
 
-Azido Group [ESLint](http://eslint.org/) Rules and Standards.
+Baseland.io [ESLint](http://eslint.org/) Rules and Standards.
 
 ## Installation within a project
 
@@ -15,10 +13,15 @@ npm uninstall eslint -g
 rm ~/.eslintrc
 ```
 
-Add a new `dev` dependency to your project:
+Install the shareable config and the dependencies as a development dependency:
 
 ```bash
-npm install --save-dev baseland-io@eslint-config-baseland
+npm install --save-dev \
+  @baseland-io/eslint-config-baseland \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser \
+  eslint \
+  typescript
 ```
 
 In the project root directory, create an empty file called `.eslintrc.json`:
