@@ -117,12 +117,6 @@ module.exports = {
       },
     ],
 
-    // http://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
-
     // http://eslint.org/docs/rules/new-cap
     'new-cap': [
       'error',
@@ -217,13 +211,7 @@ module.exports = {
     'object-shorthand': 'error',
 
     // https://eslint.org/docs/latest/rules/object-curly-spacing
-    'object-curly-spacing': [
-      'always',
-      {
-        arraysInObjects: true,
-        objectsInObjects: true,
-      },
-    ],
+    'object-curly-spacing': [ 'error', 'always' ],
 
     // http://eslint.org/docs/rules/one-var
     'one-var': [
