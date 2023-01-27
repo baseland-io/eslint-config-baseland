@@ -281,20 +281,6 @@ module.exports = {
       'error',
       'inside',
     ],
-
-    // http://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': [
-      'error',
-      {
-        requireParamDescription: true,
-        requireReturnDescription: true,
-        requireReturn: false,
-        requireReturnType: true,
-        prefer: {
-          return: 'return',
-        },
-      },
-    ],
   },
   env: {
     node: true,
